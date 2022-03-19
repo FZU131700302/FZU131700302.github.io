@@ -5,3 +5,7 @@ cursor: pointer;
 a:hover {
 color: green;
 }
+body{
+        display: flex;
+        flex-direction: column;
+        }
