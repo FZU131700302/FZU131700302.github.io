@@ -18,3 +18,30 @@ main{
 
  article{
             flex: 3;}
+/*
+	导航条
+*/
+
+.cssmenu > ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	float:right;
+}
+
+.cssmenu {
+	overflow: hidden;
+}
+
+.cssmenu > ul >li{
+	float:left;
+	display:block;
+	margin:0 20px;
+}
+
+.cssmenu >ul >li >a{
+	font-weight: 800;
+	color: #ffffff;
+	text-decoration:none;
+}
+
